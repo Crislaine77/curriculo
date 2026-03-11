@@ -1,0 +1,38 @@
+/* google fonte */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root{
+--cor-principal: #faccff; 
+--cor-secundária: #00c9a7;
+--cor-lilas: #faccff;
+--cor-ciano: #00c9a7;
+--cor-preto: #000000;
+--cor-branco: #ffffff;
+}
+body {
+    font-family: "Oswald", sans-serif;
+}
+#body {   
+    background-color: var(--cor-principal);
+}
+.lead {
+}
+#rodape {
+    background-color: var(--cor-preto);
+    color: var(--cor-branco);
+}
+#ancora {
+    text-decoration: none;
+    color: var(--cor-branco);
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+#ancora:hover {
+    color: var(--cor-lilas);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.habilidades:hover .badge {
+    background-color: var(--cor-branco);
+ 
+}
