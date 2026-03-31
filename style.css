@@ -10,12 +10,24 @@
 --cor-branco: #ffffff;
 }
 body {
-    font-family: "Oswald", sans-serif;
+    font-family: 'Oswald', sans-serif;
 }
-#body {   
+#body {
     background-color: var(--cor-principal);
 }
+.funcao {
+    color: var(--cor-branco);
+}
+p {
+    color: var(--cor-branco);
+}
 .lead {
+    font-weight: 700;
+    color: var(--cor-branco);
+}
+.titulo_habilidades {
+    font-size: 25px;
+    color: var(--cor-branco);
 }
 #rodape {
     background-color: var(--cor-preto);
@@ -28,11 +40,13 @@ body {
     transition: color 0.3s ease;
 }
 #ancora:hover {
-    color: var(--cor-lilas);
+    color: var(--cor-clara);
     cursor: pointer;
     text-decoration: underline;
 }
 .habilidades:hover .badge {
-    background-color: var(--cor-branco);
- 
+    background-color: var(--cor-branco) !important;
+    color: var(--cor-preto);
+    transform: scale(1.15);
+    transition: 0.3s;
 }
